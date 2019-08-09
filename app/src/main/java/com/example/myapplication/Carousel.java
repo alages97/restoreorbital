@@ -89,12 +89,6 @@ public class Carousel extends AppCompatActivity {
 
             if(i == 0) {
                 mNextBtn.setEnabled(true);
-                mNextBtn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        mSlideViewPager.setCurrentItem(mCurrentPage + 1);
-                    }
-                });
                 mBackBtn.setEnabled(false);
                 mBackBtn.setVisibility(View.INVISIBLE);
 
@@ -116,12 +110,6 @@ public class Carousel extends AppCompatActivity {
                 mBackBtn.setText("Back");
             } else {
                 mNextBtn.setEnabled(true);
-                mNextBtn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        mSlideViewPager.setCurrentItem(mCurrentPage + 1);
-                    }
-                });
                 mBackBtn.setEnabled(true);
                 mBackBtn.setVisibility(View.VISIBLE);
 

@@ -25,21 +25,21 @@ public class SliderAdapter extends PagerAdapter {
     }
 
     public int[] slide_images = {
-            R.drawable.pie,
-            R.drawable.tree,
-            R.drawable.road
+            R.drawable.caro1,
+            R.drawable.caro2,
+            R.drawable.caro3
     };
 
     public String[] slide_headings ={
-            "Convenience",
-            "Conservation",
-            "Carefree"
+            "Heading 1",
+            "Heading 2",
+            "Heading 3"
     };
 
     public String[] slide_desc = {
-            "Having problems keeping track of all your receipts? Fret not. With just a few clicks, you will be able to access detailed information of your recent expenditure. ",
-            "Be part of the solution, not the problem. A reported 12.4 million trees are destroyed and 4 billion pounds of CO2 is released yearly in the USA alone for paper receipt production.",
-            "With ReStore taking care of all the hard work, managing your finances is now easier than ever before. Live a carefree life. Join ReStore now."
+            "Description 1",
+            "Description 2",
+            "Description 3"
     };
 
     @Override

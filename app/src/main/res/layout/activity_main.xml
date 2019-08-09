@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background= "@drawable/caro_background"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/crushedbg">
+
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
@@ -15,7 +16,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Login"
-        android:textColor="#fff"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +33,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="New User? Sign up here"
-        android:textColor="#fff"
+        android:textColor="#0C0B0B"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,7 +55,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/restoreiconwhite" />
+        app:srcCompat="@drawable/restoreicon2" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -68,9 +68,7 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#fff"
-        app:backgroundTint="@color/colorWhite"
+        android:textColorHint="#0C0B0B"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,9 +86,7 @@
         android:ems="10"
         android:hint="Email "
         android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#fff"
-        app:backgroundTint="@color/colorWhite"
+        android:textColorHint="#0C0B0B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,7 +102,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Forgot Password?"
-        android:textColor="#fff"
+        android:textColor="#0C0B0B"
         android:textColorHint="#0C0B0B"
         android:textColorLink="#0C0B0B"
         android:textSize="18sp"

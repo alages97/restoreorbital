@@ -16,15 +16,4 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
-
-    <string-array name="category_array">
-        <item name="bills">Bills</item>
-        <item name="food">Food</item>
-        <item name="transport">Transport</item>
-        <item name="misc">Miscellaneous</item>
-    </string-array>
-
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

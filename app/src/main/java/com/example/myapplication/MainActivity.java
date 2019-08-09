@@ -21,6 +21,7 @@ import com.google.firestore.admin.v1beta1.Progress;
 import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
+
     private EditText Name;
     private EditText Password;
     private Button Login;
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
        });
     }
 
-    private void validate(final String userName, String userPassword) {
+    private void validate(String userName, String userPassword) {
 
         progressDialog.setMessage("Validating Login");
         progressDialog.show();

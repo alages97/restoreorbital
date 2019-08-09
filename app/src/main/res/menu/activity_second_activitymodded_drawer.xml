@@ -6,39 +6,34 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/home24"
+            android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_food"
-            android:icon="@drawable/food"
+            android:icon="@drawable/ic_menu_gallery"
             android:title="Food" />
         <item
             android:id="@+id/nav_transport"
-            android:icon="@drawable/transport"
+            android:icon="@drawable/ic_menu_slideshow"
             android:title="Transport" />
         <item
             android:id="@+id/nav_bills"
-            android:icon="@drawable/bills"
+            android:icon="@drawable/ic_menu_manage"
             android:title="Bills" />
         <item android:id="@+id/nav_misc"
             android:title = "Miscellaneous"
-            android:icon="@drawable/misc"
             />
-        <item
-            android:id="@+id/generate"
-            android:icon="@drawable/scan"
-            android:title="Generate QR" />
     </group>
 
     <item android:title="App">
         <menu>
             <item
                 android:id="@+id/nav_settings"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@drawable/ic_menu_share"
                 android:title="Settings" />
             <item
                 android:id="@+id/nav_logout"
-                android:icon="@drawable/logout"
+                android:icon="@drawable/ic_menu_send"
                 android:title="Logout" />
         </menu>
     </item>
